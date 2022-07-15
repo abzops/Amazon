@@ -1,0 +1,35 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    height: 60px;
+
+}
+.header__lines {
+    width: 100px;
+    object-fit: contain;
+    align-items: center;
+}
+.header__search {
+    width: 100px;
+    object-fit: contain;
+    margin: 8px -30px 8px -30px;
+    align-items: center;
+}
+
