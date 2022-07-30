@@ -9,10 +9,10 @@
 .show {
   display: 1;
 }
-.hide{
+.hide {
   display: none;
 }
-.pop{
+.pop {
   display: none;
 }
 .box {
@@ -146,7 +146,12 @@
   -webkit-transform: translateX(0%) rotate(90deg) skew(10deg, 10deg);
   transform: translateX(0%) rotate(90deg) skew(10deg, 10deg);
 }
-
+.wow {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  justify-content: flex-start !important;
+}
 @-webkit-keyframes box-lid {
   0%,
   42% {

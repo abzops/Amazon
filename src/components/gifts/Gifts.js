@@ -59,6 +59,125 @@ function Gifts({ A }) {
             </div>
           </div>
         </div>
+        <hr style={{width:"100%"}} />
+        <div className="wow">
+          <div className="comments">
+            <h2>comments</h2>
+            <div className="users">
+              <div className="names">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
+                <h7>Shine</h7>
+              </div>
+              <div className="star">
+                <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
+              </div>
+              <div className="texts">
+                <span>
+                  <b>I received it today, ThankYou very much!</b>
+                </span>
+                <br />
+                <span>
+                  I got the gift in the morning I am so happy ThankYou Amazon
+                </span>
+                <br />
+                <span>
+                  <b>789 people found this helpful</b>
+                </span>
+              </div>
+            </div>
+            <div className="users">
+              <div className="names">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
+                <h7>Athullya</h7>
+              </div>
+              <div className="star">
+                <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
+              </div>
+              <div className="texts">
+                <span>
+                  <b>Wow, this is amazing. I got a brand new airpods.</b>
+                </span>
+                <br />
+                <span>
+                  I thought it was a scam, but it arrived this morning!
+                </span>
+                <br />
+                <span>
+                  <b>145 people found this helpful</b>
+                </span>
+              </div>
+            </div>
+            <div className="users">
+              <div className="names">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
+                <h7>Evan Atkins</h7>
+              </div>
+              <div className="star">
+                <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
+              </div>
+              <div className="texts">
+                <span>
+                  <b>Real deal, but...</b>
+                </span>
+                <br />
+                <span>
+                  You must follow the guidelines exactly as requested in order
+                  to get your gift! Enjoy ppl
+                </span>
+                <br />
+                <span>
+                  <b>872 people found this helpful</b>
+                </span>
+              </div>
+            </div>
+            <div className="users">
+              <div className="names">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
+                <h7>John Gatins</h7>
+              </div>
+              <div className="star">
+                <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
+              </div>
+              <div className="texts">
+                <span>
+                  <b>First time, baby!!</b>
+                </span>
+                <br />
+                <span>
+                  Fantastic! i had never won anything before! It feels amazing,
+                  lol.
+                </span>
+                <br />
+                <span>
+                  <b>322 people found this helpful</b>
+                </span>
+              </div>
+            </div>
+            <div className="users">
+              <div className="names">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
+                <h7>Anmariya</h7>
+              </div>
+              <div className="star">
+                <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
+              </div>
+              <div className="texts">
+                <span>
+                  <b>Got an iPhone 13 Pro</b>
+                </span>
+                <br />
+                <span>
+                  At first I thought it was a fake, but finally I received my
+                  gift. I've already told friends, so they can win too.
+                </span>
+                <br />
+                <span>
+                  <b>112 people found this helpful</b>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className={`share ${share}`}>
         <Share />
