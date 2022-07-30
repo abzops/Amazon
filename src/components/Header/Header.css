@@ -16,9 +16,18 @@
     margin-top: 18px;
     align-items: center;
 }
-.icons{
+.rightIcons{
     display: flex;
     height: 60px;
+    align-items: center;
+    padding: 10px;
+
+}
+.leftIcons{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
 
 }
 .header__lines {

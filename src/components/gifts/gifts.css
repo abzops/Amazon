@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Amazon Ember";
-  src: url(../Home/Amazon\ Ember.ttf);
-}
 .container {
   display: flex;
   flex-direction: column;
@@ -10,8 +6,19 @@
   width: 100%;
   height: 65vh;
 }
+.show {
+  display: 1;
+}
+.hide{
+  display: none;
+}
+.pop{
+  display: none;
+}
 .box {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .box::before {
   content: "";
@@ -41,7 +48,7 @@
   position: absolute;
   width: 150px;
   top: 125px;
-  left: 2px;
+  left: 60px;
   opacity: 0;
   transform: translateY(0%);
   transition: all 2.5s;
@@ -54,7 +61,7 @@
   -webkit-animation: box-body 1s forwards ease-in-out;
   animation: box-body 1s forwards ease-in-out;
 }
-.imgup{
+.imgup {
   position: absolute;
   width: 150px;
   top: 125px;
@@ -66,7 +73,7 @@
   z-index: 0;
   transform: translateY(-157px);
 }
-.open{
+.open {
   -webkit-animation: box-lid 1s forwards ease-in-out;
   animation: box-lid 1s forwards ease-in-out;
 }
@@ -267,5 +274,10 @@
   100% {
     -webkit-transform: translateX(-100%) rotate(0deg) skew(10deg, 10deg);
     transform: translateX(-100%) rotate(0deg) skew(10deg, 10deg);
+  }
+}
+@media screen and (max-width: 700px) {
+  .imgup {
+    left: 60px;
   }
 }

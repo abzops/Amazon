@@ -1,17 +1,21 @@
-@font-face {
-  font-family: "Amazon Ember";
-  src: url(Amazon\ Ember.ttf);
-}
-.gift{
+.gift {
   display: flex;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   margin: 0;
-  flex-direction: column;
   font-family: "Amazon Ember", Arial, sans-serif;
 }
-.gift h1,h3{
+.gifShow{
+  display: 1;
+}
+.giftHide{
+  display: none;
+}
+.gift h1,
+h3 {
   line-height: 0;
   margin: 0;
   padding: 0;
@@ -45,7 +49,9 @@
 }
 .ques {
   height: 30vh;
+  margin-bottom: 30px;
 }
+
 .q1 {
   position: absolute;
   right: 0;
@@ -74,7 +80,8 @@
   position: absolute;
   right: 0;
   left: 0;
-  margin: 30px;
+  margin: 20px;
+  margin-top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +95,7 @@
 .check img {
   width: 20%;
 }
+
 .comments {
   margin: 10px;
   padding-left: 20px;
@@ -115,6 +123,77 @@
   font-size: 14px !important;
   line-height: 20px !important;
 }
-.users{
+.users {
   padding-bottom: 20px;
+}
+.gift-comments {
+  width: 100%;
+}
+.overlay {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: 1;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup p {
+  margin-block-start: 0 !important;
+  text-align: center;
+}
+.popup button {
+  background-color: #ffa41c;
+  border: none;
+  width: 80%;
+  height: 35px;
+  border-radius: 30px;
+}
+.popup button:hover {
+  background-color: #FF8F00;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ques {
+    height: 57vh;
+  }
+  .check img {
+    width: 10%;
+  }
 }

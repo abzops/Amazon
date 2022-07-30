@@ -12,9 +12,8 @@ function Home() {
   const [l1, setL1] = useState("0");
   const [l2, setL2] = useState("0");
   const [l3, setL3] = useState("0");
-  const [showGift, setShowGift] = useState("1");
+  const [showGift, setShowGift] = useState("giftHide");
   const [showHome, setShowHome] = useState("1");
-
   const sleep = (milliseconds) => {
     return new Promise((resolve) => setTimeout(resolve, milliseconds));
   };
@@ -28,10 +27,8 @@ function Home() {
     await sleep(2000);
     setCheck("0");
     setShowHome("none");
-    setShowGift("1");
+    setShowGift("giftShow");
   };
-
-  // console.log("value:",value);
   return (
     <div>
       <div className="home" style={{ display: showHome }}>
@@ -166,20 +163,17 @@ function Home() {
               <h2 style={{ opacity: l3 }}>You got a price!</h2>
             </div>
           </div>
+          <hr />
         </div>
-        <hr />
         <div className="comments">
           <h2>comments</h2>
           <div className="users">
             <div className="names">
               <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
+              <h7>Shine</h7>
             </div>
             <div className="star">
               <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
             </div>
             <div className="texts">
               <span>
@@ -191,296 +185,94 @@ function Home() {
               </span>
               <br />
               <span>
-                <b>232 people found this helpful</b>
+                <b>789 people found this helpful</b>
               </span>
             </div>
           </div>
           <div className="users">
             <div className="names">
               <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
+              <h7>Athullya</h7>
             </div>
             <div className="star">
               <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
             </div>
             <div className="texts">
               <span>
-                <b>I received it today, ThankYou very much!</b>
+                <b>Wow, this is amazing. I got a brand new airpods.</b>
               </span>
               <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
+              <span>I thought it was a scam, but it arrived this morning!</span>
               <br />
               <span>
-                <b>232 people found this helpful</b>
+                <b>145 people found this helpful</b>
               </span>
             </div>
           </div>
           <div className="users">
             <div className="names">
               <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
+              <h7>Evan Atkins</h7>
             </div>
             <div className="star">
               <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
             </div>
             <div className="texts">
               <span>
-                <b>I received it today, ThankYou very much!</b>
+                <b>Real deal, but...</b>
               </span>
               <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
+              <span>You must follow the guidelines exactly as requested in order to get your gift! Enjoy ppl</span>
               <br />
               <span>
-                <b>232 people found this helpful</b>
+                <b>872 people found this helpful</b>
               </span>
             </div>
           </div>
           <div className="users">
             <div className="names">
               <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
+              <h7>John Gatins</h7>
             </div>
             <div className="star">
               <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
             </div>
             <div className="texts">
               <span>
-                <b>I received it today, ThankYou very much!</b>
+                <b>First time, baby!!</b>
               </span>
               <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
+              <span>Fantastic! i had never won anything before! It feels amazing, lol.</span>
               <br />
               <span>
-                <b>232 people found this helpful</b>
+                <b>322 people found this helpful</b>
               </span>
             </div>
           </div>
           <div className="users">
             <div className="names">
               <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
+              <h7>Anmariya</h7>
             </div>
             <div className="star">
               <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
             </div>
             <div className="texts">
               <span>
-                <b>I received it today, ThankYou very much!</b>
+                <b>Got an iPhone 13 Pro</b>
               </span>
               <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
+              <span>At first I thought it was a fake, but finally I received my gift. I've already told friends, so they can win too.</span>
               <br />
               <span>
-                <b>232 people found this helpful</b>
-              </span>
-            </div>
-          </div>
-          <div className="users">
-            <div className="names">
-              <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
-            </div>
-            <div className="star">
-              <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
-            </div>
-            <div className="texts">
-              <span>
-                <b>I received it today, ThankYou very much!</b>
-              </span>
-              <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
-              <br />
-              <span>
-                <b>232 people found this helpful</b>
+                <b>112 people found this helpful</b>
               </span>
             </div>
           </div>
         </div>
       </div>
-      <div className="gift" style={{ display: showGift }}>
-        <h1>Congratulations</h1>
-        <h3>Click The Box To Claim Your Gift</h3>
-
+      <div className={showGift}>
         <Gifts />
-        <hr />
-        <div className="comments">
-          <h2>comments</h2>
-          <div className="users">
-            <div className="names">
-              <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
-            </div>
-            <div className="star">
-              <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
-            </div>
-            <div className="texts">
-              <span>
-                <b>I received it today, ThankYou very much!</b>
-              </span>
-              <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
-              <br />
-              <span>
-                <b>232 people found this helpful</b>
-              </span>
-            </div>
-          </div>
-          <div className="users">
-            <div className="names">
-              <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
-            </div>
-            <div className="star">
-              <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
-            </div>
-            <div className="texts">
-              <span>
-                <b>I received it today, ThankYou very much!</b>
-              </span>
-              <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
-              <br />
-              <span>
-                <b>232 people found this helpful</b>
-              </span>
-            </div>
-          </div>
-          <div className="users">
-            <div className="names">
-              <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
-            </div>
-            <div className="star">
-              <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
-            </div>
-            <div className="texts">
-              <span>
-                <b>I received it today, ThankYou very much!</b>
-              </span>
-              <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
-              <br />
-              <span>
-                <b>232 people found this helpful</b>
-              </span>
-            </div>
-          </div>
-          <div className="users">
-            <div className="names">
-              <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
-            </div>
-            <div className="star">
-              <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
-            </div>
-            <div className="texts">
-              <span>
-                <b>I received it today, ThankYou very much!</b>
-              </span>
-              <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
-              <br />
-              <span>
-                <b>232 people found this helpful</b>
-              </span>
-            </div>
-          </div>
-          <div className="users">
-            <div className="names">
-              <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
-            </div>
-            <div className="star">
-              <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
-            </div>
-            <div className="texts">
-              <span>
-                <b>I received it today, ThankYou very much!</b>
-              </span>
-              <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
-              <br />
-              <span>
-                <b>232 people found this helpful</b>
-              </span>
-            </div>
-          </div>
-          <div className="users">
-            <div className="names">
-              <img src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png" />
-              <h7>Abhinand</h7>
-            </div>
-            <div className="star">
-              <img src="https://latchel.com/wp-content/uploads/2022/01/amazon-5-stars-png-7-1.png" />
-              <span>
-                <b>Amazing</b>
-              </span>
-            </div>
-            <div className="texts">
-              <span>
-                <b>I received it today, ThankYou very much!</b>
-              </span>
-              <br />
-              <span>
-                I got the gift in the morning I am so happy ThankYou Amazon
-              </span>
-              <br />
-              <span>
-                <b>232 people found this helpful</b>
-              </span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

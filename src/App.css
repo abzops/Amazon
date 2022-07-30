@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(./Amazon\ Ember.ttf);
+}
 body{
+  font-family: "Amazon Ember";
   margin: 0;
 }
 .nav-belt {
